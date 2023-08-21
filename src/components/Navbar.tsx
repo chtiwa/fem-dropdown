@@ -1,5 +1,3 @@
-// @ts-ignore
-
 interface NavbarProps {
   isSidebarOpen: boolean
   setIsSidebarOpen: (isSidebarOpen: boolean) => void
@@ -37,7 +35,7 @@ const Navbar: React.FC<NavbarProps> = ({
               }`}
               onMouseLeave={() => setShowFeatures(false)}
             >
-              {featuresLinks.map((link, i) => (
+              {featuresLinks.map((link: any, i: any) => (
                 <li
                   key={i}
                   className="flex gap-x-4 hover:cursor-pointer hover:text-black"

@@ -41,7 +41,7 @@ const Sidebar: React.FC<SidebarProps> = ({
             }`}
             onMouseLeave={() => setShowFeatures(false)}
           >
-            {featuresLinks.map((link, i) => (
+            {featuresLinks.map((link: any, i: any) => (
               <li key={i} className="flex gap-x-4">
                 <img src={link.icon} alt="" className="object-contain" />
                 {link.title}
