@@ -1,3 +1,5 @@
+// @ts-ignore
+
 interface NavbarProps {
   isSidebarOpen: boolean
   setIsSidebarOpen: (isSidebarOpen: boolean) => void

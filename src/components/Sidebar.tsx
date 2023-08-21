@@ -1,3 +1,4 @@
+// @ts-ignore
 interface SidebarProps {
   isSidebarOpen: boolean
   setIsSidebarOpen: (isSidebarOpen: boolean) => void
